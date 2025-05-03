@@ -1,4 +1,4 @@
-"first python code"
+#"first python code"
 
 def main():
 	title=input()
