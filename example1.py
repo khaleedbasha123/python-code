@@ -5,5 +5,8 @@ def palindrome(x):
         sum=sum*10+x%10
         x=x//10
     return sum
-x=int(input("enter a number: "))
-print(x==palindrome(x))
+try:
+    x=int(input("enter a number: "))
+    print(x==palindrome(x))
+except ValueError:
+    print("you have entered a character")
