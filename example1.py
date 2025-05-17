@@ -11,4 +11,4 @@ while True:
         print(x==palindrome(x))
         break
     except ValueError:
-        print("you have entered a character")jbsfjgfjbcsdjh
+        print("you have entered a character")
